@@ -5,8 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .btn{
+            font-size: 16px;
+            color: #fff;
+            background: #FF3A3A;
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 5px;
+            margin: 50px auto;
+        }
+    </style>
 </head>
 <body>
-    <h1>qkwdo;qi</h1>
+    <div class="btn" onclick="download()">点击下载</div>
 </body>
 </html>
+<script type="text/javascript">
+    function download(){
+        window.location.href = "ipa/gold.ipa"
+    }
+</script>
